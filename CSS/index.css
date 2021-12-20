@@ -1,0 +1,49 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fafafa;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(99, 57, 116, .8);
+}
+p, span {
+    font-size: 30px;
+    color:  rgba(112, 123, 124, 1);
+    font-weight: 600;
+}
+.btn {
+    background-color: rgba(99, 57, 116, .8);
+    color: #fff;
+    border: 2px solid transparent;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 35px;
+    transition: all .5s ease-in-out;
+}
+.btn:hover,
+.btn-check:focus+.btn, 
+.btn:focus {
+    box-shadow: none !important;
+    border: 2px solid rgba(99, 57, 116, .8);
+    background-color: transparent;
+    color:rgba(99, 57, 116, .8);
+}
+@media screen and (max-width: 786px){
+    h1 {
+        font-size: 40px;
+    }
+    p, span {
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 18px;
+        padding: 8px 30px;
+    }
+}
